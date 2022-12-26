@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 // Alamat API backends untuk nangkap data 
-const USER_API_BASE_URL = "http://localhost:9080/users"; //menampilkan home
+const USER_API_BASE_URL = "https://golang-swart.vercel.app/users"; //menampilkan home
 
 class UserService {
     // menambahkan link user
@@ -10,7 +10,7 @@ class UserService {
         return axios.get(USER_API_BASE_URL);
     }
 
-    // Buat user baru dari form file CreateUserComponents
+    // Buat user baru dari form file CreateUserComponent
     createUser(user){
         return axios.post(USER_API_BASE_URL, user);
     }
