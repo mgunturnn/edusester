@@ -19,7 +19,7 @@ const Login = () => {
     
     // Axios.post("http://localhost:9080/login", data).then(() => {
       // diisi sama golang
-    Axios.post("http://localhost:9080/login", data).then(() => {
+    Axios.post("https://golang-swart.vercel.app/login", data).then(() => {
       console.log("Login successful!");
       Cookies.set("username", data.username, { expires: 1 });
       Cookies.set("password", data.password, { expires: 1 });
