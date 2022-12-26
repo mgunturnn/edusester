@@ -17,7 +17,7 @@ const Register = () => {
 
     console.log(data)
 
-    Axios.post("http://localhost:9080/register", data).then(() => {
+    Axios.post("https://golang-swart.vercel.app/register", data).then(() => {
       console.log("success")
     }).catch(err => {
       console.log(err)
