@@ -1,0 +1,42 @@
+.judultengah {
+    text-align: center;
+    margin: auto;
+    padding: 5%;
+    font-size: 30px;
+}
+
+.box_shadow {
+    background-color: #ffffff;
+    box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
+    border-radius: 15px;
+    padding: 40px;
+    width: 500px;
+    height: 450px;
+}
+
+.box_shadow_team {
+    background-color: #ffffff;
+    box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
+    border-radius: 15px;
+    padding: 30px;
+    width: 400px;
+    height: 420px;
+}
+
+.kotak {
+    margin: auto;
+    width: 50%;
+    justify-content: center;
+}
+
+.teamCard {
+    padding: 5%;
+    margin-left: 20px;
+    text-align: center;
+}
+
+.imageTeam {
+    margin: auto;
+    width: 180px;
+    height: 200px;
+}
